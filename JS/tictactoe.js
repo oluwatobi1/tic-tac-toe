@@ -11,12 +11,12 @@ restart.addEventListener("click", clearall)
 
 function change() {
   if (this.textContent === "") {
-    this.textContent = "X"
+    this.textContent = "X";
   }else if (this.textContent === "X") {
-    this.textContent = "O"
-  }else{
-    this.textContent === "";
-  };
+    this.textContent = "O";
+  }else if (this.textContent == "O") {
+    this.textContent = "";
+  }
 }
 
 
